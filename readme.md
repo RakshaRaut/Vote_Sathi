@@ -1,175 +1,168 @@
-**#VOTESATHI**
-The idea is: people learn about elections, interact with information, and verify facts in one place.
+# VoteSathi
 
-Below is a structured feature set inspired by social platforms but adapted for **voter awareness and transparency**.
+**VoteSathi** is a voter awareness platform that helps people learn about elections, verify political information, and make informed voting decisions.
 
----
-
-# Voter Education Platform (Social + Information Model)
-
-## 🔹 Problem Solved
-
-- Low voter awareness
-- Confusion about candidates and manifestos
-- Spread of misinformation during elections
-- Difficulty finding polling locations
-- Lack of youth engagement in politics
+The platform combines **civic education, verified news, and social interaction** to encourage responsible participation in democracy.
 
 ---
 
-# Core User Activities (Inspired by Social Platforms)
+##  Problem
 
-Users can:
+Many voters face challenges during elections:
 
-- Create a **voter profile**
-- Follow **candidates or political parties**
-- View and compare **candidate information**
-- Share **verified election news**
-- Join **discussion groups about local elections**
-- Report **fake or misleading information**
-- Get **polling location and voting time**
-- Receive **election reminders**
+* Limited information about candidates
+* Confusing party manifestos
+* Spread of misinformation
+* Difficulty finding polling locations
+* Low youth engagement in politics
 
----
-
-# Key Features
-
-### 1. Candidate Profiles
-
-Each candidate has a detailed profile containing:
-
-- Biography
-- Education
-- Previous work
-- Political party
-- Manifesto
-- Past achievements
-
-Users can easily understand who they are voting for.
+**VoteSathi aims to solve these problems with a simple digital platform.**
 
 ---
 
-### 2. Manifesto Comparison Tool
+##  Features
 
-A tool that lets users compare candidates based on:
+### Candidate Profiles
 
-- Economy plans
-- Education policies
-- Healthcare plans
-- Infrastructure promises
+View detailed candidate information including:
 
-This helps voters make **data-driven decisions**.
-
----
-
-### 3. Smart News Feed
-
-Similar to a social media feed but focused on elections.
-
-Shows:
-
-- Verified election news
-- Candidate announcements
-- Debate highlights
-- Important voting information
-
-The feed only prioritizes **verified sources**.
+* Biography
+* Education
+* Political party
+* Manifesto and achievements
 
 ---
 
-### 4. Fake News Reporting
+### Manifesto Comparison
 
-Users can report suspicious content.
+Compare candidates based on policies like:
+
+* Economy
+* Education
+* Healthcare
+* Infrastructure
+
+---
+
+### Smart News Feed
+
+A curated feed that shows:
+
+* Verified election news
+* Candidate updates
+* Debate highlights
+
+Only **trusted sources** are prioritized.
+
+---
+
+### Fake News Reporting
+
+Users can report misleading information.
 
 Process:
 
-1. User reports misinformation
-2. Moderators or AI review it
-3. Verified label or warning is added
-
-This reduces misinformation during elections.
+1. User reports suspicious content
+2. Moderation or AI review
+3. Warning or fact-check label added
 
 ---
 
-### 5. Polling Location Finder
+### Polling Location Finder
 
-Users can quickly find where they should vote.
+Quickly find:
 
-Features:
-
-- Map of polling stations
-- Distance from user
-- Voting hours
-- Required documents
+* Your polling station
+* Distance from your location
+* Voting hours
+* Required documents
 
 ---
 
-### 6. Community Discussion Groups
+### Community Discussion
 
-Similar to social media groups but focused on civic discussion.
+Users can join civic discussion groups such as:
 
-Examples:
-
-- “Pokhara Election Discussion”
-- “Youth Voters Community”
-- “Policy Debate Group”
-
-Encourages **healthy political discussion**.
+* Local election discussions
+* Youth voter communities
+* Policy debates
 
 ---
 
-### 7. Election Reminder System
+### Election Reminders
 
-Users receive notifications for:
+Notifications for:
 
-- Voter registration deadline
-- Candidate debates
-- Election day reminders
-
-Helps increase **voter turnout**.
+* Registration deadlines
+* Candidate debates
+* Election day reminders
 
 ---
 
-### 8. Candidate Q&A
+##  Tech Stack
 
-Voters can ask questions directly to candidates.
-
-Example:
-
-> “What is your plan for job creation?”
-
-Candidates or their teams respond publicly.
+* Frontend: HTML, CSS, JavaScript
+* Framework: Vite + React
+* Version Control: Git
+* Platform: GitHub
 
 ---
 
-### 9. Verified Fact-Check Section
+##  Installation
 
-A section that debunks political claims using verified sources.
+### 1 Clone the repository
 
-Example:
+```bash
+git clone https://github.com/yourusername/votesathi.git
+cd votesathi
+```
 
-- Claim
-- Fact check
-- Evidence
+### 2 Install dependencies
+
+```bash
+npm install
+```
+
+### 3 Start the development server
+
+```bash
+npm run dev
+```
+
+### 4 Open in your browser
+
+```
+http://localhost:5173
+```
 
 ---
 
-### 10. Voting Awareness Content
+##  Project Goals
 
-Educational materials explaining:
-
-- How elections work
-- Why voting matters
-- How to verify information
+* Increase voter awareness
+* Reduce political misinformation
+* Encourage youth participation
+* Improve transparency in elections
 
 ---
 
-# Why This Platform Is Important
+##  Contributing
 
-- Helps voters make **informed decisions**
-- Reduces **political misinformation**
-- Encourages **youth participation**
-- Improves **democratic transparency**
+Contributions are welcome.
 
-**Simple Concept:**
-A platform that combines **social interaction + verified political information** to help people vote wisely.
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+##  License
+
+This project is open-source and available under the MIT License.
+
+---
+
+##  Vision
+
+**VoteSathi aims to become a trusted civic platform where citizens can learn, discuss, and verify election information before voting.**
